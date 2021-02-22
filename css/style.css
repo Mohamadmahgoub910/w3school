@@ -1,0 +1,324 @@
+/* --------------------------------------General---------------------------------- */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.w-100{
+    width: 100%;
+}
+.w-15{
+    width: 15%;
+}
+.w-20{
+    width: 20%;
+}
+.w-25{
+    width: 25%;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.blue{
+    color: blue;
+}
+.darkred{
+    color:rgb(141, 7, 7);
+}
+.text{
+    color: black;
+}
+.red{
+    color: red;
+}
+.cyan{
+    color: cyan;
+}
+.yellow{
+    color: yellow;
+}
+.white{
+    color:white;
+}
+.padding-30{
+    padding: 30px;
+}
+.margin-40{
+    margin: 40px;
+}
+.margin-15{
+    margin: 15px;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-10{
+    padding: 10px;
+}
+.box-background-gray{
+    background-color: #555555; 
+}
+.box-background-lightgray{
+    background-color: #f1f1f1;
+}
+.box-background-white{
+    background-color: white;
+}
+.shadow{
+    box-shadow: 5px 0 10px -4px rgb(167, 163, 163);
+}
+.background{
+    background-color: #f1f1f1;
+}
+.shadow-box1{
+    box-shadow: 2px 2px 5px  rgb(167, 163, 163), -2px -2px 5px  rgb(167, 163, 163);
+}
+/* ----------------------------------------end general---------------------------- */
+/* ----------------------------------------start head-------------------------------- */
+.head{
+    overflow: hidden;
+    margin: 0px;
+}
+.head div{
+    padding: 20px 20px 0px 20px;
+    
+}
+.head div a{
+    text-decoration: none;
+    
+}
+.head div a h3{
+    color: #555555;
+    margin: 0px;
+    font-size: 40px;
+}
+.head div a h3 span{
+    color: #4CAF50;
+}
+.head div p{
+    color: #000 ;
+}
+/* ---------------------------------------end head-------------------------------- */
+/* ---------------------------------------start nav-------------------------------- */
+.nav{
+    overflow: hidden;
+    background-color: #4CAF50;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+.nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    padding: 16px ;
+}
+.nav ul li:hover{
+    background-color: white;
+}
+.nav ul li:hover a{
+    color:#555555; 
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+.nav ul li a span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav .float-right ul li a{
+    margin: 0px;
+}
+/* ---------------------------------------end nav-------------------------------- */
+/* ---------------------------------------start container-------------------------------- */
+.container{
+    overflow: hidden;
+    margin: 0px;
+}
+.container div{
+    overflow: hidden;
+}
+/* -------------------float-left------------ */
+.container .float-left h4{
+    padding-left: 20px;
+    color: black ;
+    font-size: 25px;
+    font-weight: normal;
+}
+.container .float-left a {
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+.container .float-left a:hover{
+    background-color:#f1f1f1;
+} 
+/* -----------------end float-left------------ */
+/* -------------------float-right------------ */
+/* ------------------box----------------- */
+.container .float-right .box .detail{
+    text-align: center;
+    display: block;
+    color:#555555; 
+}
+/* left */
+.container .float-right .box .detail  h1{
+    font-size: 80px;
+    font-weight: normal;
+    
+}
+.container .float-right .box .detail  p{
+    font-size: 25px;
+    color: #555555; 
+}
+.container .float-right .box .detail a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #555555; 
+    color: white;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+.container .float-right .box .detail a:hover{
+ background-color: #f1f1f1;
+ color: black;
+
+}
+/* end left */
+/* right */
+.container .float-right .box .explian{
+    background-color:#f1f1f1;
+    text-align: left;
+    display: block;
+    padding: 20px;
+}
+.container .float-right .box .explian h3{
+    font-weight: normal;
+}
+.container .float-right .box .explian div{
+    background-color: white;
+    border-left:#4CAF50 solid 4px ;
+    text-align: left;
+    padding-left: 10px;
+   
+}
+.container .float-right .box .explian a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+}
+.container .float-right .box .explian a:hover{
+    box-shadow: 2px 2px 10px  #4CAF50, -2px -2px 10px  #4CAF50;
+}
+/* end right */
+/* ------------------end box1----------------- */
+/* ------------------box2----------------- */
+
+.container .float-right .box .one{
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+.container .float-right .box .one h1{
+    font-size: 35px;
+    color: black;
+    font-weight: normal;
+}
+.container .float-right .box .one p{
+    color: #555555; 
+}
+.container .float-right .box .one a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #555555; 
+    color: white;
+    margin: 10px 0px;
+    display: inline-block;
+    font-size: 20px;
+}
+.container .float-right .box .one a:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+/* ------------------end box2----------------- */
+/* ------------------start box3----------------- */
+.box-background-imgs{
+    border: 5px 5px solid;
+    background-color: #f1f1f1;
+    font-size: 20px;
+}
+.box-background-imgs a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    color: white;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.box-background-imgs a:hover{
+        box-shadow: 2px 2px 10px  #4CAF50, -2px -2px 10px  #4CAF50;
+}
+#free{
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+
+}
+#free:hover{
+    background-color: white;
+    box-shadow:  2px 2px 10px  white, -2px -2px 10px  white;
+}
+.footer{
+    width: 100%;
+    border: 5px 5px white;
+    background-color: white;
+    text-align: center;
+    padding-top:20px ;
+}
+.footer p{
+    font-size: x-large;
+    background-color: #4CAF50;
+    color: white;
+}
+/* ------------------end box3----------------- */
+/* -----------------end float-right------------ */
+/* ---------------------------------------end container-------------------------------- */
